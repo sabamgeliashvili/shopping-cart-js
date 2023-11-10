@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:darkorange;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wholebox {
+    width: 800px;
+    height: 400px;
+    background-color:dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 230px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
