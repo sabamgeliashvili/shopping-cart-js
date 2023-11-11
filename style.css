@@ -6,21 +6,30 @@
 
 
 body {
-    background-color:darkorange;
+    background-color:lavenderblush;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .wholebox {
     width: 800px;
-    height: 400px;
-    background-color:dodgerblue;
+    height: 600px;
+    background-color:darkturquoise;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
 }
+
+.firstbox {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+}
+
 
 .item {
     width: 200px;
@@ -37,4 +46,28 @@ body {
 .img {
     width: 200px;
     height: 200px;
+}
+
+
+.added-item-image {
+    max-width: 100px;
+    max-height: 100px; 
+    margin-right: 10px; 
+}
+
+
+
+#addeditem {
+    max-height: 200px; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.added-item {
+    margin-bottom: 10px; 
+}
+
+
+.rembtn {
+    height: 20px;
 }
